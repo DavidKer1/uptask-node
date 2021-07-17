@@ -2,9 +2,9 @@ const express = require('express');
 const router = require('./routes')
 const path = require('path')
 const app = express();
-
+const bodyParser = require('body-parser')
 app.use(express.static('public'))
-
+app.use(bodyParser.urlencoded({ extended:true}))
 app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, './views'));
 
