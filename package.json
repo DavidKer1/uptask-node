@@ -1,0 +1,19 @@
+{
+  "name": "uptask-node",
+  "version": "0.0.1",
+  "description": "Project of Udemy Course - NODE and MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidKer1/uptask-node.git"
+  },
+  "author": "Victor Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidKer1/uptask-node/issues"
+  },
+  "homepage": "https://github.com/DavidKer1/uptask-node#readme"
+}
